@@ -1,0 +1,15 @@
+.welcome{
+    display: flex;
+    justify-content: center;
+}
+.welcome span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.forgot-pass{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

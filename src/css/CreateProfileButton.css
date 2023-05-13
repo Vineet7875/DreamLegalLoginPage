@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+.create-profile-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  height: 7rem;
+  padding: 2rem;
+  font-size: 1, 2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.create-profile-button:hover {
+  background-color: #0062cc;
+}
